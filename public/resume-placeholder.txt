@@ -1,0 +1,8 @@
+This is a placeholder file for the resume.
+
+To add your actual resume:
+1. Save your resume as: AmyChen_Resume.pdf
+2. Upload it to the /public folder
+3. The resume links in the header and About page will automatically work
+
+Current resume links point to: /AmyChen_Resume.pdf
