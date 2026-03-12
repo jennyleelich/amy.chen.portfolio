@@ -1,116 +1,116 @@
-import workflowPlannerImg from '../../asset/37091ee6a3a4ff6de162b5afc733849c77026348.png';
-import sensoryChairImg from '../../asset/5944a8dac4688c59a4a6867c0d90bddfb7ddf55c.png';
-import projectStructureImg from '../../asset/9ae0f63590042503a4ac4e98040403c46b375695.png';
-import earlyWireframesImg from '../../asset/76c2a671b967a0d0e8ee6c011ed7888f719babf9.png';
-import projectOverviewImg from '../../asset/371c651e3582056e2af5c56afb64432f6a9979b4.png';
-import stageViewImg from '../../asset/1b34dc2dcc3e1e5a5da048e915674505c184da93.png';
-import calendarViewImg from '../../asset/fd78eca01536251de39f080bc5de5a15301c2133.png';
-import eventDetailsImg from '../../asset/90ef5f1f0436310d629aff6102a3baeab787b7ff.png';
-import notesReferencesImg from '../../asset/a9a41560a3a0424c31552383ab12af3954513040.png';
+import workflowPlannerImg from '../../assets/37091ee6a3a4ff6de162b5afc733849c77026348.png';
+import sensoryChairImg from '../../assets/5944a8dac4688c59a4a6867c0d90bddfb7ddf55c.png';
+import projectStructureImg from '../../assets/9ae0f63590042503a4ac4e98040403c46b375695.png';
+import earlyWireframesImg from '../../assets/76c2a671b967a0d0e8ee6c011ed7888f719babf9.png';
+import projectOverviewImg from '../../assets/371c651e3582056e2af5c56afb64432f6a9979b4.png';
+import stageViewImg from '../../assets/1b34dc2dcc3e1e5a5da048e915674505c184da93.png';
+import calendarViewImg from '../../assets/fd78eca01536251de39f080bc5de5a15301c2133.png';
+import eventDetailsImg from '../../assets/90ef5f1f0436310d629aff6102a3baeab787b7ff.png';
+import notesReferencesImg from '../../assets/a9a41560a3a0424c31552383ab12af3954513040.png';
 // Mobile prototype screens
-import mobileDashboardImg from '../../asset/193eb6253691c0a673cddee1005c8af5dee4d86a.png';
-import mobileProjectOverviewImg from '../../asset/40a8a530580e9d71ff4819bb3d044ee8655a4df4.png';
-import mobileStageViewImg from '../../asset/ef882d533f2a2c4ba1018205afafc0f3bf7b1c8c.png';
-import mobileCalendarImg from '../../asset/e0265e91e7b35538697023cf2e8366e3c0c68d61.png';
-import mobileNotesImg from '../../asset/8e726555befa0635236e8c922fe1840c7aef2bc2.png';
+import mobileDashboardImg from '../../assets/193eb6253691c0a673cddee1005c8af5dee4d86a.png';
+import mobileProjectOverviewImg from '../../assets/40a8a530580e9d71ff4819bb3d044ee8655a4df4.png';
+import mobileStageViewImg from '../../assets/ef882d533f2a2c4ba1018205afafc0f3bf7b1c8c.png';
+import mobileCalendarImg from '../../assets/e0265e91e7b35538697023cf2e8366e3c0c68d61.png';
+import mobileNotesImg from '../../assets/8e726555befa0635236e8c922fe1840c7aef2bc2.png';
 
 // Sensory Chair images
-import sensoryChairMainImg from '../../asset/71e9e35146c1f1509459146a40567899dda55703.png';
-import sensoryChairInUseImg from '../../asset/ba9534c94227b9c8cc643ed4df719be4f279073d.png';
-import sensoryChairSketchImg from '../../asset/21699192bf545e05311442b6cf58c2f685fe3bb2.png';
-import sensoryChairFormStudiesImg from '../../asset/f0cd81f37146e5a493b8efb4b1ad77fc982b3dc3.png';
-import sensoryChairModelsImg from '../../asset/98b56f4ae0f26925238dcbdf85f8b2fe76363a04.png';
-import sensoryChairRenderImg from '../../asset/5cbb8ead827464ff0dc0a69db55c07f8e6cf3460.png';
-import sensoryChairBackrestRenderImg from '../../asset/47649718acf68a0f168bf840353a117404dddb18.png';
-import sensoryChairPinMechanismImg from '../../asset/5b4700cf610a74d838d4f1997061382f5ce77eba.png';
-import sensoryChairRefinedRenderImg from '../../asset/7a5d762402432996dc7bd61d3ec2e53abd0fcc73.png';
-import sensoryChairInteractionImg from '../../asset/78ddb9fb4355e0600330250fe6c846a6b4248255.png';
-import sensoryChairDetailImg from '../../asset/d56c5958f85bcbb6962645fac1b6c940918aa0d2.png';
-import cncChildrensFurnitureImg from '../../asset/aa21a38c8003115892eb1837da0f379e0e558aa8.png';
-import pitcherDesignImg from '../../asset/1e924fcc2d536f50088606c096100a25620ec6d9.png';
-import pitcherProcessImg1 from '../../asset/c3c7d2c6d3c65eb2a1be2cccbff957a00acc2e1c.png';
-import pitcherProcessImg2 from '../../asset/4c539db3ffb0774114fc9579b3598132745e85b2.png';
+import sensoryChairMainImg from '../../assets/71e9e35146c1f1509459146a40567899dda55703.png';
+import sensoryChairInUseImg from '../../assets/ba9534c94227b9c8cc643ed4df719be4f279073d.png';
+import sensoryChairSketchImg from '../../assets/21699192bf545e05311442b6cf58c2f685fe3bb2.png';
+import sensoryChairFormStudiesImg from '../../assets/f0cd81f37146e5a493b8efb4b1ad77fc982b3dc3.png';
+import sensoryChairModelsImg from '../../assets/98b56f4ae0f26925238dcbdf85f8b2fe76363a04.png';
+import sensoryChairRenderImg from '../../assets/5cbb8ead827464ff0dc0a69db55c07f8e6cf3460.png';
+import sensoryChairBackrestRenderImg from '../../assets/47649718acf68a0f168bf840353a117404dddb18.png';
+import sensoryChairPinMechanismImg from '../../assets/5b4700cf610a74d838d4f1997061382f5ce77eba.png';
+import sensoryChairRefinedRenderImg from '../../assets/7a5d762402432996dc7bd61d3ec2e53abd0fcc73.png';
+import sensoryChairInteractionImg from '../../assets/78ddb9fb4355e0600330250fe6c846a6b4248255.png';
+import sensoryChairDetailImg from '../../assets/d56c5958f85bcbb6962645fac1b6c940918aa0d2.png';
+import cncChildrensFurnitureImg from '../../assets/aa21a38c8003115892eb1837da0f379e0e558aa8.png';
+import pitcherDesignImg from '../../assets/1e924fcc2d536f50088606c096100a25620ec6d9.png';
+import pitcherProcessImg1 from '../../assets/c3c7d2c6d3c65eb2a1be2cccbff957a00acc2e1c.png';
+import pitcherProcessImg2 from '../../assets/4c539db3ffb0774114fc9579b3598132745e85b2.png';
 
 // Mirrors project images
-import mirrorsMainImg from '../../asset/fcf60149ef8c5a273421470542a123874a1270e3.png';
-import mirrorsDetailImg from '../../asset/3d825f9bc89f05c8b6f3a9d1db4f214a18e4c132.png';
-import mirrorsCollectionImg from '../../asset/409f920dd843798f75debc4ba4b7c35bb9247ce7.png';
-import mirrorsFrontRearImg from '../../asset/430608710a53cae33fa31ec7dd17b05a1fbc7c89.png';
-import mirrorsPivotMechanismImg from '../../asset/1772dda622a69c6f5dfc1b8b3c08f368aea10b14.png';
-import mirrorsPrototypeImg from '../../asset/4e2036e40e58641d4daf26f3de24f62274e23282.png';
-import mirrorsSketchesGroupImg from '../../asset/f8bb641864ddfd8f2ca0071a7c339b225ae5e99b.png';
-import mirrorsSketchesDetailImg from '../../asset/d662828fc0c5decef838536d304798bcfea8b81d.png';
+import mirrorsMainImg from '../../assets/fcf60149ef8c5a273421470542a123874a1270e3.png';
+import mirrorsDetailImg from '../../assets/3d825f9bc89f05c8b6f3a9d1db4f214a18e4c132.png';
+import mirrorsCollectionImg from '../../assets/409f920dd843798f75debc4ba4b7c35bb9247ce7.png';
+import mirrorsFrontRearImg from '../../assets/430608710a53cae33fa31ec7dd17b05a1fbc7c89.png';
+import mirrorsPivotMechanismImg from '../../assets/1772dda622a69c6f5dfc1b8b3c08f368aea10b14.png';
+import mirrorsPrototypeImg from '../../assets/4e2036e40e58641d4daf26f3de24f62274e23282.png';
+import mirrorsSketchesGroupImg from '../../assets/f8bb641864ddfd8f2ca0071a7c339b225ae5e99b.png';
+import mirrorsSketchesDetailImg from '../../assets/d662828fc0c5decef838536d304798bcfea8b81d.png';
 
 // A Song project image
-import aSongImg from '../../asset/5e917b2c6093b5c8839682472c56054ec5e12a6d.png';
-import aSongKeyDesignImg from '../../asset/659fc8261320746e8b30b0153d0a6ab5ceddb165.png';
+import aSongImg from '../../assets/5e917b2c6093b5c8839682472c56054ec5e12a6d.png';
+import aSongKeyDesignImg from '../../assets/659fc8261320746e8b30b0153d0a6ab5ceddb165.png';
 
 // Superstitions and Rituals images
-import superstitionsMainImg from '../../asset/8c5d31c97cc834375eafff3789f57cf9941c741f.png';
-import superstitionsDocImg from '../../asset/9acacd7f0797a2e693eea5f703a8da670f3c2121.png';
-import superstitionsOverviewImg from '../../asset/1386d65cca64094736466d543d8591733e7365fc.png';
-import superstitionsSketchImg from '../../asset/bfe01ec16240db0791b5b5823006796c61abcee2.png';
-import superstitionsSchematicImg from '../../asset/d3ca1fcb1b5f1048eda5dcc238ba89907d2ab146.png';
-import superstitionsRitualDocImg from '../../asset/7f2e31741591b546386e4f882869750913d2b81d.png';
+import superstitionsMainImg from '../../assets/8c5d31c97cc834375eafff3789f57cf9941c741f.png';
+import superstitionsDocImg from '../../assets/9acacd7f0797a2e693eea5f703a8da670f3c2121.png';
+import superstitionsOverviewImg from '../../assets/1386d65cca64094736466d543d8591733e7365fc.png';
+import superstitionsSketchImg from '../../assets/bfe01ec16240db0791b5b5823006796c61abcee2.png';
+import superstitionsSchematicImg from '../../assets/d3ca1fcb1b5f1048eda5dcc238ba89907d2ab146.png';
+import superstitionsRitualDocImg from '../../assets/7f2e31741591b546386e4f882869750913d2b81d.png';
 
 // Domestic Rituals project image
-import domesticRitualsImg from '../../asset/47ad1f9d3a496fe87310191312cb3364dc14b886.png';
+import domesticRitualsImg from '../../assets/47ad1f9d3a496fe87310191312cb3364dc14b886.png';
 
 // Domestic Rituals design progress images
-import domesticRitualsRenderStudyImg from '../../asset/1aef686c9b04736b7c289595143d65203c6e4c2a.png';
-import domesticRitualsFinalRenderImg from '../../asset/47ad1f9d3a496fe87310191312cb3364dc14b886.png';
-import domesticRitualsIsolatedImg from '../../asset/79d895c6740f54693cc53cdbb8567e3a68b898cd.png';
-import domesticRitualsInitialFormImg from '../../asset/ee891701f3a0a1242a09fdb4b56f9a989299b37f.png';
-import domesticRitualsComponentLayoutImg from '../../asset/8c6255c3141b28a52067cd136505aae1fe283c44.png';
-import domesticRitualsMaterialTestingImg from '../../asset/f30128e9ef7dc116c670f4caf3059a42616c7487.png';
-import domesticRitualsExplodedViewImg from '../../asset/90baae6025a957018d6f7b932be67a079d827f93.png';
+import domesticRitualsRenderStudyImg from '../../assets/1aef686c9b04736b7c289595143d65203c6e4c2a.png';
+import domesticRitualsFinalRenderImg from '../../assets/47ad1f9d3a496fe87310191312cb3364dc14b886.png';
+import domesticRitualsIsolatedImg from '../../assets/79d895c6740f54693cc53cdbb8567e3a68b898cd.png';
+import domesticRitualsInitialFormImg from '../../assets/ee891701f3a0a1242a09fdb4b56f9a989299b37f.png';
+import domesticRitualsComponentLayoutImg from '../../assets/8c6255c3141b28a52067cd136505aae1fe283c44.png';
+import domesticRitualsMaterialTestingImg from '../../assets/f30128e9ef7dc116c670f4caf3059a42616c7487.png';
+import domesticRitualsExplodedViewImg from '../../assets/90baae6025a957018d6f7b932be67a079d827f93.png';
 
 // Do Not Enter project image
-import doNotEnterImg from '../../asset/0adff0c9822b070198de1d37f053458644920964.png';
+import doNotEnterImg from '../../assets/0adff0c9822b070198de1d37f053458644920964.png';
 
 // Picky Eater project image
-import pickyEaterImg from '../../asset/c21b624e72358b5b4e65f1a42ddaf340ffed2eef.png';
+import pickyEaterImg from '../../assets/c21b624e72358b5b4e65f1a42ddaf340ffed2eef.png';
 
 // Swallows project image
-import swallowsImg from '../../asset/186ae0d72ad7394de34477ab7c10f5d6848df0d3.png';
+import swallowsImg from '../../assets/186ae0d72ad7394de34477ab7c10f5d6848df0d3.png';
 
 // Swallows inspiration images
-import swallowsFlockImg from '../../asset/09383d07b80132f926dd55eba4801249c8831897.png';
-import swallowsBraidedRepetitionImg from '../../asset/e58c69050062efa69c2bd0f19d3b1eaf416ee534.png';
-import swallowsBotanicalEnclosureImg from '../../asset/a4a2087b633cecc25607b474952ae5d5261f5db2.png';
-import swallowsSeedClustersImg from '../../asset/0289c6fe118189d0f9ab1374f5de679bdbeb9e88.png';
-import swallowsOrchidOrnamentImg from '../../asset/62d007d66969ac1bbe46f6470598d6cf8e57c748.png';
-import swallowsCarvedOrnamentImg from '../../asset/e7ba01230fc2a7f13d315c1b26490100e0a4b2ad.png';
-import swallowsProjectViewImg from '../../asset/186ae0d72ad7394de34477ab7c10f5d6848df0d3.png';
+import swallowsFlockImg from '../../assets/09383d07b80132f926dd55eba4801249c8831897.png';
+import swallowsBraidedRepetitionImg from '../../assets/e58c69050062efa69c2bd0f19d3b1eaf416ee534.png';
+import swallowsBotanicalEnclosureImg from '../../assets/a4a2087b633cecc25607b474952ae5d5261f5db2.png';
+import swallowsSeedClustersImg from '../../assets/0289c6fe118189d0f9ab1374f5de679bdbeb9e88.png';
+import swallowsOrchidOrnamentImg from '../../assets/62d007d66969ac1bbe46f6470598d6cf8e57c748.png';
+import swallowsCarvedOrnamentImg from '../../assets/e7ba01230fc2a7f13d315c1b26490100e0a4b2ad.png';
+import swallowsProjectViewImg from '../../assets/186ae0d72ad7394de34477ab7c10f5d6848df0d3.png';
 
 // Swallows material and construction images
-import swallowsTemplateImg from '../../asset/5d6f11e31c42e4e5c25d22aa07d2dd9d1faf6953.png';
-import swallowsConnectorImg from '../../asset/0756c450160be16251b55ee4d776a8ede98f2dad.png';
-import swallowsShapeExplorationImg from '../../asset/b992365533910ca6b9e6d42870c476495367e212.png';
+import swallowsTemplateImg from '../../assets/5d6f11e31c42e4e5c25d22aa07d2dd9d1faf6953.png';
+import swallowsConnectorImg from '../../assets/0756c450160be16251b55ee4d776a8ede98f2dad.png';
+import swallowsShapeExplorationImg from '../../assets/b992365533910ca6b9e6d42870c476495367e212.png';
 
 // Swallows summary images
-import swallowsDetailViewImg from '../../asset/b56162455c56a683cca0918829050b6062a462a5.png';
+import swallowsDetailViewImg from '../../assets/b56162455c56a683cca0918829050b6062a462a5.png';
 
 // Drawing projects
-import stillLifeDrawingImg from '../../asset/33e24c7da1c936388aa6e9afdb1985be5cea556b.png';
-import boilerRoomDrawingImg from '../../asset/53e22b9035afbfca4262f551b5d32424c4da5d9c.png';
-import figureDrawingsImg from '../../asset/9d80bcfd4c698509bde06803adb027b62fb584c3.png';
-import portraitStudyImg from '../../asset/78a3c1aa1238d735b5c105c8aba68566fc7aa03f.png';
+import stillLifeDrawingImg from '../../assets/33e24c7da1c936388aa6e9afdb1985be5cea556b.png';
+import boilerRoomDrawingImg from '../../assets/53e22b9035afbfca4262f551b5d32424c4da5d9c.png';
+import figureDrawingsImg from '../../assets/9d80bcfd4c698509bde06803adb027b62fb584c3.png';
+import portraitStudyImg from '../../assets/78a3c1aa1238d735b5c105c8aba68566fc7aa03f.png';
 
 // Painting projects
-import riverOfFlamesImg from '../../asset/a9670ceebb97b8a95b298d9a8ab03e992fdadeb2.png';
-import branchesImg from '../../asset/dd47cb49525a7c8dd3c6cdd1c7524998944a4ee0.png';
-import sunsetImg from '../../asset/9e311aa0561f73ef0ae914efd772f12330009c18.png';
-import shellPainting1Img from '../../asset/6822a06c14c90a7240215e98fe22e8136111100f.png';
-import shellPainting2Img from '../../asset/b39a9468944fcc824f0702883881ab1d2dfbb951.png';
-import escapeFromCityImg from '../../asset/851659c8f499555e6b52ca32462a745890247a8f.png';
+import riverOfFlamesImg from '../../assets/a9670ceebb97b8a95b298d9a8ab03e992fdadeb2.png';
+import branchesImg from '../../assets/dd47cb49525a7c8dd3c6cdd1c7524998944a4ee0.png';
+import sunsetImg from '../../assets/9e311aa0561f73ef0ae914efd772f12330009c18.png';
+import shellPainting1Img from '../../assets/6822a06c14c90a7240215e98fe22e8136111100f.png';
+import shellPainting2Img from '../../assets/b39a9468944fcc824f0702883881ab1d2dfbb951.png';
+import escapeFromCityImg from '../../assets/851659c8f499555e6b52ca32462a745890247a8f.png';
 
 // Installations/Sculpture projects
-import paperStructuresImg from '../../asset/d77334fdef14ca610c5b1ff99ca1b59b5aac1790.png';
-import kiteImg from '../../asset/c18e20b856ec663db2864439499ecda9f7a44724.png';
-import wireInstallationImg from '../../asset/bdfeb6ac4671230bcf3cd546f404b28798cc9d17.png';
-import organicNetworkImg from '../../asset/cc8eb39e1632a101b6ceca0cc5832f782a6f5b36.png';
-import ceramicFlowImg from '../../asset/8e28939943c012eb47b9bbe676e5eba1070c4a32.png';
+import paperStructuresImg from '../../assets/d77334fdef14ca610c5b1ff99ca1b59b5aac1790.png';
+import kiteImg from '../../assets/c18e20b856ec663db2864439499ecda9f7a44724.png';
+import wireInstallationImg from '../../assets/bdfeb6ac4671230bcf3cd546f404b28798cc9d17.png';
+import organicNetworkImg from '../../assets/cc8eb39e1632a101b6ceca0cc5832f782a6f5b36.png';
+import ceramicFlowImg from '../../assets/8e28939943c012eb47b9bbe676e5eba1070c4a32.png';
 
 export interface Project {
   id: string;
