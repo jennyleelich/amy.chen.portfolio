@@ -1,9 +1,12 @@
 import { Link, Outlet, useLocation } from 'react-router';
 import { motion } from 'motion/react';
 import { ScrollToTop } from './ScrollToTop';
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
 
 export function Layout() {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-white">
@@ -12,14 +15,14 @@ export function Layout() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link to="/" className="group">
+            <Link to="/" className="group" onClick={() => setIsMobileMenuOpen(false)}>
               <h1 className="text-2xl font-light tracking-tight">
                 AMY CHEN
                 <span className="inline-block ml-2 text-lg group-hover:rotate-12 transition-transform">🏠</span>
               </h1>
             </Link>
 
-            {/* Navigation & Contact Info */}
+            {/* Desktop Navigation & Contact Info */}
             <div className="hidden md:flex items-center gap-8 text-sm text-gray-600">
               <Link 
                 to="/about" 
@@ -44,8 +47,55 @@ export function Layout() {
                 Resume
               </a>
             </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden p-2 text-gray-600 hover:text-gray-900"
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-md"
+          >
+            <div className="px-6 py-4 space-y-4">
+              <Link 
+                to="/about" 
+                className={`block text-base text-gray-600 hover:text-gray-900 transition-colors ${
+                  location.pathname === '/about' ? 'text-gray-900 font-medium' : ''
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                About
+              </Link>
+              <a 
+                href="mailto:Lchen09@risd.edu" 
+                className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Lchen09@risd.edu
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1HyO5HedupIBuuBUqNBee4IOk9GBz2fag/view?usp=sharing" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Resume
+              </a>
+            </div>
+          </motion.div>
+        )}
       </header>
 
       {/* Main Content */}
