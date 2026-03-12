@@ -26,9 +26,10 @@ export function CategoryPage({ category }: CategoryPageProps) {
               Designer & Artist
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              A product designer with a passion for crafting meaningful objects. 
-              Exploring the intersection of craft, materiality, and conceptual depth through 
-              sculpture, installation, and mixed media works.
+              A product designer specializing in interaction design and physical craft. 
+              I design user-centered digital experiences and meaningful objects, exploring 
+              the intersection of interface design, materiality, and conceptual depth through 
+              both digital and physical mediums.
             </p>
           </motion.div>
         </div>
