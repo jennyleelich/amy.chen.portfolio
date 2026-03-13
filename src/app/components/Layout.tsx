@@ -33,13 +33,27 @@ export function Layout() {
                 About
               </Link>
               <a 
+                href="mailto:amy.chen.lich@gmail.com" 
+                className="hover:text-gray-900 transition-colors"
+              >
+                amy.chen.lich@gmail.com
+              </a>
+              <a 
                 href="mailto:Lchen09@risd.edu" 
                 className="hover:text-gray-900 transition-colors"
               >
                 Lchen09@risd.edu
               </a>
               <a 
-                href="https://drive.google.com/file/d/1HyO5HedupIBuuBUqNBee4IOk9GBz2fag/view?usp=sharing" 
+                href="https://linkedin.com/in/amy-chen-358417283" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-900 transition-colors"
+              >
+                LinkedIn
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1_kA0h0me__A2HGStTs3Q_HXHlbmonQ0r/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-900 transition-colors"
@@ -78,6 +92,13 @@ export function Layout() {
                 About
               </Link>
               <a 
+                href="mailto:amy.chen.lich@gmail.com" 
+                className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                amy.chen.lich@gmail.com
+              </a>
+              <a 
                 href="mailto:Lchen09@risd.edu" 
                 className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -85,7 +106,16 @@ export function Layout() {
                 Lchen09@risd.edu
               </a>
               <a 
-                href="https://drive.google.com/file/d/1HyO5HedupIBuuBUqNBee4IOk9GBz2fag/view?usp=sharing" 
+                href="https://linkedin.com/in/amy-chen-358417283" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                LinkedIn
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1_kA0h0me__A2HGStTs3Q_HXHlbmonQ0r/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
@@ -129,7 +159,7 @@ export function Layout() {
                 <p>January 2025 - Present</p>
                 <p className="mt-3">Sharon Art Center</p>
                 <p>South Brunswick, NJ - Teaching</p>
-                <p>March 2025 - Jan 2024</p>
+                <p>March 2024 - January 2025</p>
               </div>
             </div>
 
@@ -138,7 +168,8 @@ export function Layout() {
               <h3 className="text-sm font-medium mb-4">Skills</h3>
               <div className="text-sm text-gray-600">
                 <p className="mb-2">Physical: Woodworking, Welding, Soldering, Casting & Releasing, Sewing, Machine Knitting</p>
-                <p className="mt-3">Software: Figma, Photoshop, VS Code, Rhino 3D, 3D Printing, Keyshot, Fusion 360</p>
+                <p className="mt-3">Software: Figma, Figma Make, Photoshop, VS Code, Rhino 3D, 3D Printing, Keyshot, Fusion 360</p>
+                <p className="mt-3">Language: Java, Javascript, Typescript, HTML</p>
               </div>
             </div>
           </div>

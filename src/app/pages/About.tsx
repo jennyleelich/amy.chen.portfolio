@@ -145,7 +145,13 @@ export function About() {
                   <div>
                     <h3 className="text-sm font-medium mb-3">Digital Tools</h3>
                     <p className="text-gray-600">
-                      Figma, Photoshop, VS Code, Rhino 3D, 3D Printing, Keyshot, Fusion 360
+                      Figma, Figma Make, Photoshop, VS Code, Rhino 3D, 3D Printing, Keyshot, Fusion 360
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-medium mb-3">Languages</h3>
+                    <p className="text-gray-600">
+                      Java, Javascript, Typescript, HTML
                     </p>
                   </div>
                 </div>
@@ -159,6 +165,14 @@ export function About() {
                   </p>
                   <div>
                     <a 
+                      href="mailto:amy.chen.lich@gmail.com" 
+                      className="inline-block text-lg hover:text-gray-900 transition-colors"
+                    >
+                      amy.chen.lich@gmail.com
+                    </a>
+                  </div>
+                  <div>
+                    <a 
                       href="mailto:Lchen09@risd.edu" 
                       className="inline-block text-lg hover:text-gray-900 transition-colors"
                     >
@@ -167,7 +181,17 @@ export function About() {
                   </div>
                   <div>
                     <a 
-                      href="https://drive.google.com/file/d/1HyO5HedupIBuuBUqNBee4IOk9GBz2fag/view?usp=sharing" 
+                      href="https://linkedin.com/in/amy-chen-358417283" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-lg hover:text-gray-900 transition-colors"
+                    >
+                      LinkedIn
+                    </a>
+                  </div>
+                  <div>
+                    <a 
+                      href="https://drive.google.com/file/d/1_kA0h0me__A2HGStTs3Q_HXHlbmonQ0r/view?usp=sharing" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-sm font-medium hover:text-gray-900 transition-colors"
