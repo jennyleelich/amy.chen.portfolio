@@ -191,7 +191,7 @@ export function About() {
                   </div>
                   <div>
                     <a 
-                      href="https://drive.google.com/file/d/1_kA0h0me__A2HGStTs3Q_HXHlbmonQ0r/view?usp=sharing" 
+                      href="https://drive.google.com/file/d/1Nc-Ba1Khg6MpTXQgLRQqUvcvf8thFBC_/view?usp=sharing" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-sm font-medium hover:text-gray-900 transition-colors"

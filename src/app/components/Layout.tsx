@@ -53,7 +53,7 @@ export function Layout() {
                 LinkedIn
               </a>
               <a 
-                href="https://drive.google.com/file/d/1_kA0h0me__A2HGStTs3Q_HXHlbmonQ0r/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1Nc-Ba1Khg6MpTXQgLRQqUvcvf8thFBC_/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-900 transition-colors"
@@ -115,7 +115,7 @@ export function Layout() {
                 LinkedIn
               </a>
               <a 
-                href="https://drive.google.com/file/d/1_kA0h0me__A2HGStTs3Q_HXHlbmonQ0r/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1Nc-Ba1Khg6MpTXQgLRQqUvcvf8thFBC_/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-base text-gray-600 hover:text-gray-900 transition-colors"
